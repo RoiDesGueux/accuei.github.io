@@ -323,17 +323,17 @@ body{
   
   
   #actualités {
-  background: url(/img/jeux.png);
+  background: url(img/jeux.png);
   }
   
   #chateau {
-  background: url(/img/animé.png);
+  background: url(img/animé.png);
   }
   #phare {
-  background: url(/img/bestof.png);
+  background: url(img/bestof.png);
   }
   #vignoble {
-  background: url(/img/logiciel.png);
+  background: url(img/logiciel.png);
   }
   #tourisme li {
   margin: 65px 100px 0 100px;
