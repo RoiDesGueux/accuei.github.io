@@ -9,7 +9,10 @@ body{
   html {
   scroll-behavior: smooth;
   }
-  
+  #nnav{
+    z-index: 9;
+    padding: 0.01px 0;
+  }
   
   ul {
   margin: 0;
@@ -98,7 +101,8 @@ body{
   color: #fff;
   margin-left: 41%;
   font-size: 15px;
-  }
+  padding: 0 0 ;  
+}
   .header__nav__menu__link h4 {
   color: #fff;
   margin-left: 49%;
@@ -107,6 +111,7 @@ body{
   
   .sous_titre{
   display: block;
+  z-index: 9;
   }
   
   .img_sous_texte{
@@ -127,7 +132,7 @@ body{
   margin-right: initial;
   }
   
-  .header__nav__menu__link a {
+  .titre-nav {
   color: #fff;
   font-family: 'Arial';
   font-weight: 850;
