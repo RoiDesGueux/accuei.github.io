@@ -1,171 +1,267 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html class="wide" lang="en">
   <head>
-    <meta charset="UTF-8">
+    <!-- Site Title-->
+    <title>Home</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href= "img/background/roi.png" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Roi_Des_Gueux</title>
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    
-
-<body>
-  <header class="header">
-        <nav class="nav">
-          <ul class="ul1">
-            <a href="#"><img src="img/nav/logo.png" alt="Logo" id="logo" width="75px"></a>
-            <div class="nav-droite">
-              <li><a href="https://roidesgueux.github.io/music/">Song</a></li>
-              <li><a href="https://roidesgueux.github.io/mes-chaines/">Mes chaînes</a></li>
-              <li><a href="https://roidesgueux.github.io/liens/">Jeux&Logiciels</a></li>
-              <li><a href="https://roidesgueux.github.io/anime/">Animé</a></li>
-              <li><a href="https://roidesgueux.github.io/contactez-moi/">Nous contacter</a></li>
-            </div>
-          </nav >
-          <div class="overlay-menu-mobile" onclick="closeMenuMobile()"></div>
-          <header class="header">
-            
-              <nav class="header__nav">
-                  <div class="header__nav__close" onclick="closeMenuMobile()">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                          stroke="currentColor">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                  </div>
-                  <ul class="header__nav__menu">
-                      <li class="header__nav__menu__link">
-                          <a class="titre-nav" href="https://roidesgueux.github.io/mes-chaines/" >Mes chaînes</a>
-                          <div class="sous_titre">
-                          <img src="img/nav/tiktok.png" alt="tiktok" class="img_sous_texte" width="45px">
-                          <a href="https://www.tiktok.com/@roi_des_geueux" id="nnav"><h4 href="https://www.tiktok.com/@roi_des_geueux" id="nnav"> TikTok </h4></a>
-                          </div>
-                          <div class="sous_titre">
-                          <img src="img/nav/twitch.png" alt="tiktok" class="img_sous_texte" width="45px">
-                          <a href="https://www.twitch.tv/roi_des_gueux_max" id="nnav"><h4 href="https://www.twitch.tv/roi_des_gueux_max" id="nnav"> Twitch </h4></a>
-                          </div>
-                          <div class="sous_titre">
-                          <img src="img/nav/youtube.png" alt="tiktok" class="img_sous_texte" width="45px">
-                          <a href="https://www.youtube.com/@Roi_Des_Gueux " id="nnav"><h4 href="https://www.youtube.com/@Roi_Des_Gueux " id="nnav"> Youtube </h4></a>
-                          </div>
-                      </li>
-                      <li class="header__nav__menu__link">
-                          <a class="titre-nav" href="https://roidesgueux.github.io/liens/ ">Jeux&Logiciels</a>
-                          <div class="sous_titre">
-                            <img src="img/nav/solo.png" alt="tiktok" class="img_sous_texte" width="43px">
-                            <a href="https://roidesgueux.github.io/solo/" id="nnav"> <h3 href="https://roidesgueux.github.io/solo/" id="nnav"> Jeux solo </h3></a>
-                            </div>
-                            <div class="sous_titre">
-                            <img src="img/nav/deux.png" alt="tiktok" class="img_sous_texte" width="40px">
-                            <a href="https://roidesgueux.github.io/multi/" id="nnav"><h3 href="https://roidesgueux.github.io/multi/" id="nnav"> Jeux multi </h3></a>
-                            </div>
-                            <div class="sous_titre">
-                               <img src="img/nav/logiciel.png" alt="tiktok" class="img_sous_texte" width="43px">
-                               <a href="https://roidesgueux.github.io/logiciel/" id="nnav"> <h3 href="https://roidesgueux.github.io/logiciel/"> Logiciels </h3></a>
-                                </div>
-                      </li>
-                      <li class="header__nav__menu__link">
-                          <a class="titre-nav" href="https://roidesgueux.github.io/anime/ ">Animé</a>
-                          <div class="sous_titre">
-                            <img src="img/nav/vostfr.png" alt="tiktok" class="img_sous_texte" width="40px">
-                            <a href="https://roidesgueux.github.io/vostfr/" id="nnav"><h1 href="https://roidesgueux.github.io/vostfr/" id="nnav"> Vostfr</h1></a>
-                            </div>
-                            <div class="sous_titre">
-                            <img src="img/nav/fr.png" alt="tiktok" class="img_sous_texte" width="40px">
-                            <a href="https://roidesgueux.github.io/VF/" id="nnav"><h1 href="https://roidesgueux.github.io/VF/" id="nnav"> VF</h1></a>
-                            </div>
-                            <div class="sous_titre">
-                                <img src="img/nav/plannig.png" alt="tiktok" class="img_sous_texte" width="40px">
-                                <a href="https://roidesgueux.github.io/planification/" id="nnav"><h1 href="https://roidesgueux.github.io/planification/"> Planning</h1></a>
-                                </div>
-                      </li>
-      
-                  </ul>
-              </nav>
-              <div class="header__burger" onclick="openMenuMobile()">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                      stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                  </svg>
+    <meta charset="utf-8">
+    <link rel="icon" href="images/roi.png" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Barlow:100,200,300,400,700">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  </head>
+  <body>
+    <!-- Page-->
+    <div class="page bg-image novi-background">
+      <div class="preloader">
+        <div class="preloader-body">
+          <div class="cssload-container">
+            <div class="cssload-speeding-wheel"></div>
+          </div>
+          <p>Chargement fdp...</p>
+        </div>
+      </div><a class="section section-banner d-none d-xl-flex" href="#" style="background-image: url(images/banner/background-04-1920x60.jpg); background-image: -webkit-image-set( url(images/banner/background-04-1920x60.jpg) 1x, url(images/banner/background-04-3840x120.jpg) 2x )" target="_blank"></a>
+      <!-- Page Header-->
+      <header class="section page-header">
+        <div class="container">
+          <div class="row justify-content-between align-items-end row-30">
+            <div class="col-12 col-md-6"><a class="brand-logo" href="./"><img src="images/logo-default-346x62.png" alt="" width="346" height="62"/></a></div>
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="head-title">
+                <p> Le site des Gueux et fait par le RoiDesGueux <br class="d-none d-md-inline-block">
+                  </p>
               </div>
-          </header>
-          <script>
-            function openMenuMobile() {
-                document.querySelector('.header__nav').classList.add('open');
-                document.querySelector('.overlay-menu-mobile').classList.add('open');
-            }
-    
-            function closeMenuMobile() {
-                document.querySelector('.header__nav').classList.remove('open');
-                document.querySelector('.overlay-menu-mobile').classList.remove('open');
-            }
-        </script>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="section section-xs">
+        <div class="container">
+          <!-- Bootstrap tabs-->
+          <div class="tabs-custom tabs-horizontal tabs-corporate" id="tabs-1">
+            <!-- Nav tabs-->
+            <ul class="nav nav-tabs">
+              <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-1-1" data-toggle="tab"><span class="nav-link-main">Mes Chaînes</span></a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-2" data-toggle="tab"><span class="nav-link-main">Song</span></a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-3" data-toggle="tab"><span class="nav-link-main">Jeux&Logiciels</span></a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-4" data-toggle="tab"><span class="nav-link-main">Animé</span></a></li>
+            </ul>
+            <!-- Tab panes-->
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="tabs-1-1">
+                <div class="tabs-custom tabs-horizontal tabs-gallery hide-on-modal" id="tabs-galery">
+                  <!-- Nav tabs-->
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-gallery-1" data-toggle="tab"><img src="images/petite img principale/1.png" alt="" width="180" height="180"/><span>Mes Chaînes</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-gallery-2" data-toggle="tab"><img src="images/petite img principale/3.png" alt="" width="180" height="180"/><span>Song</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-gallery-3" data-toggle="tab"><img src="images/petite img principale/2.png" alt="" width="180" height="180"/><span>Jeux&Logiciels</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-gallery-4" data-toggle="tab"><img src="images/petite img principale/4.png" alt="" width="180" height="180"/><span>Animé</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="https://roidesgueux.github.io/contactez-moi/" ><img src="images/petite img principale/5.png" alt="" width="180" height="180"/><span>Contact</span></a></li>
+                  </ul>
+                  <!-- Tab panes-->
+                  <div class="tab-content">
+                    <div class="tab-pane fade" id="tabs-gallery-1">
+                      <div class="gallery-wrap">
+                        <div class="gallery-wrap-inner">
+                          <a href="https://roidesgueux.github.io/mes-chaines/" ><h4>Voir</h4> </a>
+                          <div class="dots-custom-lifestyle"></div><a class="back-to-gallery button-link button-link-icon" href="#"><span class="novi-icon icon icon-primary fa fa-angle-left"></span><span>back to gallery</span></a>
+                        </div>
+                        <div class="gallery-wrap-inner">
+                          <!-- Owl Carousel-->
+                          <div class="owl-carousel owl-gallery" data-items="1" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="false" data-margin="0" data-mouse-drag="false" data-lightgallery="group" data-pagination-class=".dots-custom-lifestyle"><a class="gallery-item" href="images/gallery-lifestyle-07-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/chaine/1.png" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/chaine/1.png" data-lightgallery="item">
+                              <figure><img src="images/chaine/2.png" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/chaine/2.png" data-lightgallery="item">
+                              <figure><img src="images/chaine/3.png" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/chaine/3.png" data-lightgallery="item">
+                              <figure><img src="images/chaine/4.png" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/chaine/4.png" data-lightgallery="item">
+                              <figure><img src="images/chaine/5.png" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/chaine/5.png" data-lightgallery="item">
+                              <figure><img src="images/chaine/6.png" alt="" width="970" height="524"/>
+                              </figure>
+                       
+                                
+                              
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--Portrait-->
+                    <div class="tab-pane fade" id="tabs-gallery-2">
+                      <div class="gallery-wrap">
+                        <div class="gallery-wrap-inner">
+                          <a href="https://roidesgueux.github.io/music/" ><h4>Voir</h4> </a>
+                          <div class="dots-custom-portrait"></div><a class="back-to-gallery button-link button-link-icon" href="#"><span class="novi-icon icon icon-primary fa fa-angle-left"></span><span>back to gallery</span></a>
+                        </div>
+                        <div class="gallery-wrap-inner">
+                          <!-- Owl Carousel-->
+                          <div class="owl-carousel owl-gallery" data-items="1" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="false" data-margin="0" data-mouse-drag="false" data-lightgallery="group" data-pagination-class=".dots-custom-portrait"><a class="gallery-item" href="images/gallery-portrait-02-970x524.jpg" data-lightgallery="item">
+                            <figure><img src="images/song/0.png" alt="" width="970" height="524"/>
+                            </figure>
+                            <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/song/0.png" data-lightgallery="item">
+                            <figure><img src="images/song/1.png" alt="" width="970" height="524"/>
+                            </figure>
+                            <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/song/1.png" data-lightgallery="item">
+                            <figure><img src="images/song/2.png" alt="" width="970" height="524"/>
+                            </figure>
+                            <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/song/2.png" data-lightgallery="item">
+                            <figure><img src="images/song/3.png" alt="" width="970" height="524"/>
+                            </figure>
+                            <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/song/3.png" data-lightgallery="item">
+                            <figure><img src="images/song/4.png" alt="" width="970" height="524"/>
+                            </figure>
+                            <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/song/4.png" data-lightgallery="item">
+                            <figure><img src="images/song/5.png" alt="" width="970" height="524"/>
+                            </figure>
+                            <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/song/5.png" data-lightgallery="item">
+                            <figure><img src="images/song/6.png" alt="" width="970" height="524"/>
+                            </figure>
+                            <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/song/6.png" data-lightgallery="item">
+                            <figure><img src="images/song/7.png" alt="" width="970" height="524"/>
+                            </figure>
+                            <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/song/7.png" data-lightgallery="item">
+                              <figure><img src="images/song/8.png" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--Fashion-->
+                    <div class="tab-pane fade" id="tabs-gallery-3">
+                      <div class="gallery-wrap">
+                        <div class="gallery-wrap-inner">
+                          <a href="https://roidesgueux.github.io/3ds/" ><h4>Voir</h4> </a>
+                          <div class="dots-custom-fashion"></div><a class="back-to-gallery button-link button-link-icon" href="#"><span class="novi-icon icon icon-primary fa fa-angle-left"></span><span>back to gallery</span></a>
+                        </div>
+                        <div class="gallery-wrap-inner">
+                          <!-- Owl Carousel-->
+                          <div class="owl-carousel owl-gallery" data-items="1" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="false" data-margin="0" data-mouse-drag="false" data-lightgallery="group" data-pagination-class=".dots-custom-fashion"><a class="gallery-item" href="images/gallery-fashion-03-970x524.jpg" data-lightgallery="item">
+                            <figure><img src="images/jeu&logiciel/1.png" alt="" width="970" height="524"/>
+                            </figure>
+                         
+                            <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/jeu&logiciel/1.png" data-lightgallery="item">
+                            <figure><img src="images/jeu&logiciel/2.png" alt="" width="970" height="524"/>
+                            </figure>
+                            <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/jeu&logiciel/2.png" data-lightgallery="item">
+                            <figure><img src="images/jeu&logiciel/3.png" alt="" width="970" height="524"/>
+                            </figure>
+                            <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/jeu&logiciel/3.png" data-lightgallery="item">
+                            <figure><img src="images/jeu&logiciel/4.png" alt="" width="970" height="524"/>
+                            </figure>
+                            <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/jeu&logiciel/4.png" data-lightgallery="item">
+                            <figure><img src="images/jeu&logiciel/5.png" alt="" width="970" height="524"/>
+                            </figure>
+                            <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/jeu&logiciel/5.png" data-lightgallery="item">
+                            <figure><img src="images/jeu&logiciel/6.png" alt="" width="970" height="524"/>
+                            </figure>
+                            <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/jeu&logiciel/6.png" data-lightgallery="item">
+                            <figure><img src="images/jeu&logiciel/7.png" alt="" width="970" height="524"/>
+                            </figure>
+                            <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/jeu&logiciel/7.png" data-lightgallery="item">
+                              <figure><img src="images/jeu&logiciel/8.png" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/jeu&logiciel/8.png" data-lightgallery="item">
+                                <figure><img src="images/jeu&logiciel/9.png" alt="" width="970" height="524"/>
+                                </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--nature-->
+                    <div class="tab-pane fade" id="tabs-gallery-4">
+                      <div class="gallery-wrap">
+                        <div class="gallery-wrap-inner">
+                          <a href="https://roidesgueux.github.io/anime/" ><h4>Voir</h4> </a>
+                          <div class="dots-custom-nature"></div><a class="back-to-gallery button-link button-link-icon" href="#"><span class="novi-icon icon icon-primary fa fa-angle-left"></span><span>back to gallery</span></a>
+                        </div>
+                        <div class="gallery-wrap-inner">
+                          <!-- Owl Carousel-->
+                          <div class="owl-carousel owl-gallery" data-items="1" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="false" data-margin="0" data-mouse-drag="false" data-lightgallery="group" data-pagination-class=".dots-custom-nature"><a class="gallery-item" href="images/gallery-nature-07-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-nature-07-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-nature-01-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-nature-01-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-nature-02-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-nature-02-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-nature-03-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-nature-03-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-nature-04-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-nature-04-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-nature-05-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-nature-05-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-nature-06-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-nature-06-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-nature-08-970x524.jpg" data-lightgallery="item">
+                              <figure><img src="images/gallery-nature-08-970x524.jpg" alt="" width="970" height="524"/>
+                              </figure>
+                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div> </div>
+                  </div> </div>
+                </div>
+                    <!--city-->
 
-<div id="imagePrincipale">
-    
-</div>
+      </section><a class="section section-banner d-xl-none" href="https://www.templatemonster.com/website-templates/monstroid2.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )" target="_blank"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a>
+      <!-- Page Footer-->
+      <footer class="section footer-classic context-dark novi-background">
+        <div class="container">
+          <div class="footer-group">
+            <ul class="list-inline list-inline-xs">
+              <li><a class="novi-icon icon-xxs fa-instagram icon" href="https://instagram.com/roi_des_gueux?igshid=MzNlNGNkZWQ4Mg=="></a></li>
+              <li><a class="novi-icon icon-xxs fa-twitch icon" href="https://www.twitch.tv/roi_des_gueux_max"></a></li>
+              <li><a class="novi-icon icon-xxs fa-youtube icon" href="https://www.youtube.com/@Roi_Des_Gueux"></a></li>
+            </ul>
+            <!-- Rights-->
+            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>.&nbsp;</span><a href="#" data-toggle="modal" data-target="#privacy">Privacy Policy</a>.;<a href="#">Roi_Des_Gueux</a></p>
+          </div>
+        </div>
+        <!-- Coded by JeremyLuis-->
+      </footer>
 
-<section id="presentation">
-    <h2>Petite présentation de mon contenu</h2>
-    <div id="texteIntro">
-      <p>Bonsoir mes petits Gueux, Aujourd'hui moi Roi_Des_Gueux vais vous conter la biographie de ma magnifique chaine ytb.
-        J'ai créée cette chaine ytb pour me divertire dans la vie. Sur cette chaine tu verras beaucoup de chose qui se relient à la F1
-        avec des Best-of, des OpenLobby, des tutos ou du gameplay.
-      </p>
+      <div class="modal modal-centered slideUp" id="privacy" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="content-box">
+              <div class="content-box-inner">
+                <div class="row">
+                  <div class="col-12">
+                    <h3>Privacy Policy</h3>
+                  </div>
+                </div>
+              </div><a class="close-modal-content-box" href="#" data-dismiss="modal">x</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="prestations">
-      <div class="imagesPrestations">
-        <h4>YouTube</h4>
-        <a href="https://www.youtube.com/@Roi_Des_Gueux"><img src="media1/ytb.png" alt="carte"></a>
-      </div>
-      <div class="imagesPrestations">
-        <h4>Discord</h4>
-        <a href="https://discord.gg/GnRaH7KXTU"><img src="media1/discord.png" alt="repas"></a>
-      </div>
-      <div class="imagesPrestations">
-        <h4>TikTok</h4>
-        <a href="https://www.tiktok.com/@roi_des_geueux"><img src="media1/tiktok.png" alt="chambre"></a>
-      </div>
-      <div class="imagesPrestations">
-        <h4>Twitch</h4>
-        <a href="https://www.twitch.tv/roi_des_gueux_max"><img src="media1/t.png" alt="repas"></a>
-      </div>
-    </div>
-
-  </section>
-  <section id="tourisme">
-    <h2>Petit contenu sympatique</h2>
-    <ul>
-      <a href="https://roidesgueux.github.io/actu/ ">
-      <li  id="actualités"><p>Actualités</p></li></a>
-      <a href="https://roidesgueux.github.io/actu/ ">
-      <li id="chateau"><p>Mes vidéos</p></li></a>
-      <a href="https://roidesgueux.github.io/liens/">
-      <li id="phare"><p>Liens</p></li></a>
-      <a href="https://roidesgueux.github.io/contactez-moi/">
-      <li id="vignoble"><p>Nous contacter</p></li></a>
-    </ul>
-  </section>
-  <footer>
-    <h2 id="contact">Contactez-moi</h2>
-    <form>
-      <input placeholder="Nom">
-      <input placeholder="E-mail">
-      <textarea placeholder="Votre message ici..."></textarea>
-      <button>Envoyer</button>
-    </form>
-    <div id="deuxiemeTrait"></div>
-    <div id="copyrightEtIcons">
-      <div id="copyright">
-        <span>© Roi_Des_Gueux(); 2022</span>
-      </div>
-
-    </div>
-
-  </footer>
-</body>
-
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Javascript-->
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- coded by ragnar-->
+  </body>
 </html>
